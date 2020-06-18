@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sign Up </title>
+	<link rel="icon" href="Image/db.png" type="Image/png">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+		<header> 
+		<div class="logo">
+			<img src="pic/db.png">
+		</div>
+	<nav class="navigation">
+		<ul class="main">
+			<li><a href="index.html"> Home </a></li>
+			<li class="active"><a href="signup.html"> Signup </a></li>
+			<li><a href="contact.html"> Contact </a></li>
+			<a id="Top"></a>
+		</ul>
+	</nav>
+	</header>
+	<br>
+		<form>
+			<div class="bottom">
+			<a  href="#Bottom">Go to Bottom</a>
+			</div>
+			<fieldset><legend><h1>Sign Up</h1></legend>
+				*Required<br><br>
+			First Name*:	<input type="text" name="First Name" title="Your First Name" placeholder="Ram" pattern="[A-Z,a-z]" required>
+			<br><br>
+
+			Middle Name: <input type="text" name="Middle Name" title="Your Middle Name" placeholder="Bahadur" pattern="[A-Z,a-z]">
+			<br><br>
+
+			Last Name*: <input type="text" name="Last Name" title="Your Last Name" placeholder="Gurung" pattern="[A-Z,a-z]" required>
+			<br><br>
+
+			Gender: <input type="radio" name="gender" value="male">Male 
+					<input type="radio" name="gender" value="female">Female
+					<input type="radio" name="gender" value="others">Others
+			<br><br>
+
+			Phone Number*: <input type="text" name="number" maxlength="14" pattern="[0-9]" value="+977" title="Your mobile number">
+			<br><br>
+
+			Email*: <input type="text" name="email" maxlength="20" placeholder="abc@mail.com" title="Your Email address"required>
+			<br><br>
+
+			Password*: <input type="password" name="password" value="" title="Enter your password" required>
+			<br><br>
+
+			Favourite color:<input type="color" name="" title="Choose your favourite color">
+			<br><br>
+
+			<fieldset><legend>Date and Time</legend>
+			DOB*:<input type="date" name="dateofbirth" required>
+			<br><br>
+
+			Time:<input type="time" name="time">
+			</fieldset>
+			<br><br>
+
+			Rating:
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<br><br>
+
+			<textarea name="Message" rows="3" cols="60"></textarea>
+			<br><br>
+
+			<input type="checkbox" name="checkbox" >I agree all the terms and conditions.
+			<br><br>
+
+			<input type="submit" onclick="alert('You have submitted succesfully')" value="Submit">
+			<br><br>
+			<input type="reset">
+			<a id="Bottom"></a>
+		</fieldset>
+		</form>
+
+			<div class="bottom">
+			<a  href="#Top">Go to Top</a>
+			</div>
+
+	<footer class="footer">
+		<div class="social">
+			<a href="https://www.facebook.com/"><img src="pic/facebook.png"></a>
+			<a href="https://www.youtube.com/"><img src="pic/you.jpg"></a>
+			<a href="https://www.instagram.com/"><img src="pic/insta.jpg"></a>
+		</div>
+		&copy; Dinesh Baral @ 2020
+	</footer>
+</body>
+</html>

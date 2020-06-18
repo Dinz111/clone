@@ -1,0 +1,115 @@
+body{
+	background-color: #c8ccc9;
+	max-height: 1300px;
+}
+
+.logo img{
+	height: 50px;
+	width:auto;
+	padding:20px;
+	float:left;
+}
+.main ul {
+	list-style: none;
+	font-size:1.5em;
+	float: right;
+	margin-top: 25px
+}
+
+ ul li {
+	display: inline-block;
+}
+
+ ul li a{
+	text-decoration: none;
+	color:black;
+	border:1px solid #fff;
+	border-radius:4px;
+	padding:5px 20px;
+}
+ ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+.active a{
+	background-color: white;
+	color:black;
+}
+
+header{
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+
+.pic img {
+	height:250px;
+	width:200px;
+	border:4px dotted red;
+	margin-bottom: 100px;
+}
+
+h1{
+	font-family: 'Metal Mania', cursive;
+}
+
+form{
+	border:3px dotted black;
+	padding: 30px;
+	margin-top: 10px;
+}
+
+form:hover{
+	background-color:black;
+	color:white;
+	border:3px dotted white;
+}
+
+
+
+.bottom a{
+	text-decoration: none;
+	color:white;
+	border:1px solid #fff;
+	border-radius:4px;
+	padding:5px 20px;
+	margin-bottom: 10px;
+
+}
+
+
+
+.bottom{
+	margin:10px;
+
+}
+
+ .bottom a:hover{
+	background-color: white;
+	color: black;
+
+}
+.social img{
+	height: 30px;
+	width:30px;
+}
+
+.footer{
+	margin-top: 10px;
+	margin-bottom:0;
+	width: 100%;
+	height:auto;
+	background-color:yellow; 
+	text-align: center;
+}
+
+.footer h3{
+	margin:0;
+}
+
+
+
+
+
+
+
